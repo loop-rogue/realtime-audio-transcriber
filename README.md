@@ -131,13 +131,6 @@ uv run ruff check .
 uv run pytest
 ```
 
-## Architecture
-
-- **Audio Pipeline**: `audio_callback()` → `audio_queue` → `process_audio()`
-- **Translation Pipeline**: `process_transcription()` (multiprocess) → `process_output_from_ai_translate()`
-- **File Writing**: `file_write_queue` → `process_file_writer()`
-- **UI Display**: `CursesUI` class with highlighted text support
-
 ## Troubleshooting
 
 ### UTF-8 Encoding Errors
