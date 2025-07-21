@@ -2,6 +2,8 @@
 
 A **local, privacy-focused** real-time audio transcription using whisper and translation application designed for **macOS**. This application captures and transcripts your Mac's system audio output using advanced streaming speech recognition optimized with the **LocalAgreement algorithm** for efficient real-time processing.
 
+![Transcript Screenshot](transcript.png)
+
 ## 🔒 Privacy & Local Processing
 
 - **100% Local Processing**: All transcription and translation happens on your Mac - no data sent to external servers
